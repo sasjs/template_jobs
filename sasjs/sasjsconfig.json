@@ -1,0 +1,10 @@
+{
+ "cmnMacros": [
+  "macros"
+ ],
+ "cmnServices": [
+  "services/common"
+ ],
+ "useMacroCore": true,
+ "targets": []
+}
