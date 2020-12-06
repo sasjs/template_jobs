@@ -1,10 +1,16 @@
 {
- "cmnMacros": [
-  "macros"
- ],
- "cmnServices": [
-  "services/common"
- ],
- "useMacroCore": true,
- "targets": []
+  "cmnMacros": [
+    "macros"
+  ],
+  "jobs": [
+    "jobs/demo"
+  ],
+  "jobInit": "jobs/jobinit.sas",
+  "jobTerm": "jobs/jobterm.sas",
+  "programFolders": [
+    "db/demolib"
+  ],
+  "useMacroCore": true,
+  "targets": [
+  ]
 }
