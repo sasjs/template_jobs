@@ -12,5 +12,11 @@
   ],
   "useMacroCore": true,
   "targets": [
+    {
+      "name": "viya",
+      "serverType": "SASVIYA",
+      "appLoc": "/Public/sasjs/jobs",
+      "deployServicePack":true
+    }
   ]
 }
