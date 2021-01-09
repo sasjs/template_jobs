@@ -1,22 +1,25 @@
 {
-  "cmnMacros": [
+  "macroFolders": [
     "macros"
   ],
-  "jobs": [
-    "jobs/demo"
-  ],
-  "jobInit": "jobs/jobinit.sas",
-  "jobTerm": "jobs/jobterm.sas",
   "programFolders": [
     "db/demolib"
   ],
-  "useMacroCore": true,
+  "jobConfig": {
+    "jobFolders": [
+      "jobs/demo"
+    ],
+    "initProgram": "jobs/jobinit.sas",
+    "termProgram": "jobs/jobterm.sas"
+  },
   "targets": [
     {
       "name": "viya",
       "serverType": "SASVIYA",
       "appLoc": "/Public/sasjs/jobs",
-      "deployServicePack":true
+      "deployConfig": {
+        "deployServicePack": true
+      }
     }
   ]
 }
