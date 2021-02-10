@@ -1,17 +1,17 @@
 {
   "$schema": "https://cli.sasjs.io/sasjsconfig-schema.json",
   "macroFolders": [
-    "macros"
+    "sasjs/macros"
   ],
   "programFolders": [
-    "db/demolib"
+    "sasjs/db/demolib"
   ],
   "jobConfig": {
     "jobFolders": [
-      "jobs/demo"
+      "sasjs/jobs/demo"
     ],
-    "initProgram": "jobs/jobinit.sas",
-    "termProgram": "jobs/jobterm.sas"
+    "initProgram": "sasjs/jobs/jobinit.sas",
+    "termProgram": "sasjs/jobs/jobterm.sas"
   },
   "targets": [
     {
