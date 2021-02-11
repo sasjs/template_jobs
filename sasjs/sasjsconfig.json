@@ -1,18 +1,13 @@
 {
-  "$schema": "https://cli.sasjs.io/sasjsconfig-schema.json",
-  "macroFolders": [
-    "sasjs/macros"
-  ],
-  "programFolders": [
-    "sasjs/db/demolib"
-  ],
+  "macroFolders": ["sasjs/macros"],
   "jobConfig": {
-    "jobFolders": [
-      "sasjs/jobs/demo"
-    ],
+    "jobFolders": ["sasjs/jobs/demo"],
     "initProgram": "sasjs/jobs/jobinit.sas",
-    "termProgram": "sasjs/jobs/jobterm.sas"
+    "termProgram": "sasjs/jobs/jobterm.sas",
+    "macroVars": {}
   },
+  "programFolders": ["sasjs/db/demolib"],
+  "$schema": "https://cli.sasjs.io/sasjsconfig-schema.json",
   "targets": [
     {
       "name": "viya",
