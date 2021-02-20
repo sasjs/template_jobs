@@ -25,8 +25,11 @@
   @li demotable1.ddl FREF1
   @li demotable1.sas FREF2
 
+  <h4> Data Inputs </h4>
+  @li src.policy_table
+  
   <h4> Data Outputs </h4>
-  @li mylib.example
+  @li mylib.policy_extract
 
 **/
 
