@@ -1,10 +1,9 @@
 /**
   @file
   @brief An example program
-  @description Just a random program to show how arbitrary
+  @details Just a random program to show how arbitrary
   code can be included in SASjs Jobs and Services
 
-  @param msg The message to be printed
   @author Allan Bowe
 
 **/
