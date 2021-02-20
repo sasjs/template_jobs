@@ -8,7 +8,6 @@
     "macroVars": {}
   },
   "programFolders": ["sasjs/db/demolib"],
-  "$schema": "https://cli.sasjs.io/sasjsconfig-schema.json",
   "targets": [
     {
       "name": "viya",
