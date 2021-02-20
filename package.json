@@ -23,6 +23,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@sasjs/core": "^2.1.2"
+    "@sasjs/core": "^2.9.3"
   }
 }
