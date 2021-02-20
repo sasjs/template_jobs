@@ -24,8 +24,11 @@
   <h4> SAS Programs </h4>
   @li demotable2.sas DEMO
 
+  <h4> Data Inputs </h4>
+  @li mylib.policy_extract
+  
   <h4> Data Outputs </h4>
-  @li work.demotable2
+  @li mylib.example
 
 **/
 
