@@ -1,7 +1,7 @@
 {
   "name": "template_sasonly",
   "version": "1.0.0",
-  "description": "The template used by SASjs when running `sasjs create myProject -t jobs`",
+  "description": "The jobs template used by SASjs when running sasjs create",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,6 +16,10 @@
     "Viya",
     "SASjs"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sasjs/template_jobs"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
