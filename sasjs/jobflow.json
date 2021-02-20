@@ -3,26 +3,26 @@
   "flows": {
     "nameOfFirstFlow": {
       "jobs":[
-        {"location": "jobs/demo/makedata1"},
-        {"location": "jobs/demo/makedata2"}
+        {"location": "jobs/extract/makedata1"},
+        {"location": "jobs/extract/makedata2"}
       ],
      "predecessors": []
     },
     "secondFlow": {
       "jobs" : [
-        {"location": "jobs/demo/makedata3"}
+        {"location": "jobs/extract/makedata3"}
       ],
       "predecessors": []
     },
     "3rdflow": {
       "jobs" : [
-        {"location": "jobs/demo/runjob1"}
+        {"location": "jobs/load/runjob1"}
       ],
       "predecessors": ["nameOfFirstFlow","secondFlow"]
     },
     "finalflow": {
       "jobs" : [
-        {"location": "jobs/demo/runjob2"}
+        {"location": "jobs/load/runjob2"}
       ],
       "predecessors": ["3rdflow"]
     }

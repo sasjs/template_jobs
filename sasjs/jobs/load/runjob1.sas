@@ -10,7 +10,7 @@
   @li mf_nobs.sas
 
   <h4> Data Outputs </h4>
-  @li work.somedata
+  @li sas9hrdb.test
 
 **/
 

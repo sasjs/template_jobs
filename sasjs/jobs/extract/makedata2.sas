@@ -15,20 +15,26 @@
 
   ## Data Inputs / Outputs
   This is where you can provide the library.table references of your input and
-  output tables.  In a future release it will be possible to use this information
-  to diagram the data lineage.
+  output tables.  This is used to generate the data lineage in `sasjs doc`.
+
+
+  <h4> SAS Macros </h4>
+  @li example.sas
+
+  <h4> SAS Programs </h4>
+  @li demotable2.sas DEMO
 
   <h4> Data Outputs </h4>
-  @li work.demotable3
+  @li work.demotable2
 
 **/
 
-data &mylib..demotable3;
-  do x=1 to 1e5;
-    output;
-  end;
-run;
+%example(MakeData2 is executing)
+
+/* these file refs are configurable above */
+%inc DEMO;
 
 data _null_;
-  rc=sleep(2);
+  putlog 'job code goes in this file';
+  rc=sleep(10);
 run;
