@@ -1,5 +1,5 @@
 {
-  "name": "template_sasonly",
+  "name": "template_jobs",
   "version": "1.0.0",
   "description": "The jobs template used by SASjs when running sasjs create",
   "homepage": "https://cli.sasjs.io",
