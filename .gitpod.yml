@@ -1,5 +1,5 @@
 tasks:
-  - init: npm install && npm i -g @sasjs/cli
+  - init: echo Welcome to the SASjs Jobs Template repository! 
 
 image:
   file: .gitpod.dockerfile
