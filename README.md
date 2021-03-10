@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/sasjs/template_jobs)
+
 # template_jobs
 
 This is a seed app for Data Scientists and Data Engineers who are looking to quickly understand the SASjs Framework as an accelerator for scaffolding a SAS Project.
