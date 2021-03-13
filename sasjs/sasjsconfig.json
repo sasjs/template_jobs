@@ -8,6 +8,7 @@
     "macroVars": {}
   },
   "programFolders": ["db/demolib","programs"],
+  "defaultTarget": "viya",
   "targets": [
     {
       "name": "viya",
