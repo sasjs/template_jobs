@@ -2,29 +2,44 @@
   "name": "Template SASjs Job Flow",
   "flows": {
     "nameOfFirstFlow": {
-      "jobs":[
-        {"location": "jobs/extract/makedata1"},
-        {"location": "jobs/extract/makedata2"}
+      "jobs": [
+        {
+          "location": "jobs/extract/makedata1"
+        },
+        {
+          "location": "jobs/extract/makedata2"
+        }
       ],
-     "predecessors": []
+      "predecessors": []
     },
     "secondFlow": {
-      "jobs" : [
-        {"location": "jobs/extract/makedata3"}
+      "jobs": [
+        {
+          "location": "jobs/extract/makedata3"
+        }
       ],
       "predecessors": []
     },
     "3rdflow": {
-      "jobs" : [
-        {"location": "jobs/load/runjob1"}
+      "jobs": [
+        {
+          "location": "jobs/load/runjob1"
+        }
       ],
-      "predecessors": ["nameOfFirstFlow","secondFlow"]
+      "predecessors": [
+        "nameOfFirstFlow",
+        "secondFlow"
+      ]
     },
     "finalflow": {
-      "jobs" : [
-        {"location": "jobs/load/runjob2"}
+      "jobs": [
+        {
+          "location": "jobs/load/runjob2"
+        }
       ],
-      "predecessors": ["3rdflow"]
+      "predecessors": [
+        "3rdflow"
+      ]
     }
   }
 }
