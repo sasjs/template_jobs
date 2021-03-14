@@ -1,22 +1,30 @@
 {
-  "$schema": "https://cli.sasjs.io/sasjsconfig-schema.json",
-  "macroFolders": ["macros"],
-  "jobConfig": {
-    "jobFolders": ["jobs/extract","jobs/load"],
-    "initProgram": "jobs/jobinit.sas",
-    "termProgram": "jobs/jobterm.sas",
-    "macroVars": {}
-  },
-  "programFolders": ["db/demolib","programs"],
-  "defaultTarget": "viya",
-  "targets": [
-    {
-      "name": "viya",
-      "serverType": "SASVIYA",
-      "appLoc": "/Public/sasjs/jobs",
-      "deployConfig": {
-        "deployServicePack": true
-      }
-    }
-  ]
+    "$schema": "https://raw.githubusercontent.com/sasjs/utils/main/src/types/sasjsconfig-schema.json",
+    "macroFolders": [
+        "macros"
+    ],
+    "jobConfig": {
+        "jobFolders": [
+            "jobs/extract",
+            "jobs/load"
+        ],
+        "initProgram": "jobs/jobinit.sas",
+        "termProgram": "jobs/jobterm.sas",
+        "macroVars": {}
+    },
+    "programFolders": [
+        "db/demolib",
+        "programs"
+    ],
+    "defaultTarget": "viya",
+    "targets": [
+        {
+            "name": "viya",
+            "serverType": "SASVIYA",
+            "appLoc": "/Public/sasjs/jobs",
+            "deployConfig": {
+                "deployServicePack": true
+            }
+        }
+    ]
 }
