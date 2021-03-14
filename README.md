@@ -8,9 +8,11 @@ This is a seed app for Data Scientists and Data Engineers who are looking to qui
 
 First, install the SASjs CLI - `npm i -g @sasjs/cli`.
 
-Next, prepare the project by running `sasjs create MYPROJECT -t jobs` and then `cd MYPROJECT`.  
+Next, obtain the project - there are three ways to do this:
 
-These two parts can be skipped if you are launching the project using the gitpod container (link above).
+1) Clone it, and cd into it
+2) Run `sasjs create MYPROJECT -t jobs` and then `cd MYPROJECT`.  
+3) Click the "gitpod" link above (this will launch the project in a cloud container)
 
 ## Authentication
 To connect to viya you need a client & secret (configured with the authorization_code scope) from your administrator.  For more info, see [here](https://cli.sasjs.io/faq/#how-can-i-obtain-a-viya-client-and-secret).
