@@ -8,10 +8,10 @@ This is a seed app for Data Scientists and Data Engineers who are looking to qui
 
 First, install the SASjs CLI - `npm i -g @sasjs/cli`.
 
-Next, obtain the project - there are three ways to do this:
+Next, obtain the project - there are three ways you can do this:
 
-1) Clone it, and cd into it
-2) Run `sasjs create MYPROJECT -t jobs` and then `cd MYPROJECT`.  
+1) Run `sasjs create MYPROJECT -t jobs` and then `cd MYPROJECT`.  
+2) Clone this repo, and `cd` into it
 3) Click the "gitpod" link above (this will launch the project in a cloud container)
 
 ## Authentication
