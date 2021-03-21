@@ -3,3 +3,5 @@ sasjsbuild/
 sasjsresults/
 .env*
 
+# prevent files/folders with spaces
+**\ **
