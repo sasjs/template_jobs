@@ -1,6 +1,7 @@
 /**
   @file
-  @brief runjob2
+  @sastype_job
+  @brief This job runs a job, funnily enough
   @details Get a list of Viya users
 
 

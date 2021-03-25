@@ -1,5 +1,6 @@
 /**
   @file
+  @sastype_job
   @brief runjob1
   @details In the flow this is defined to run after the dependent flows have
   finished (successfully)

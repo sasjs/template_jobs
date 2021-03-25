@@ -14,7 +14,7 @@
   },
   "programFolders": [
     "db/demolib",
-    "programs"
+    "includes"
   ],
   "defaultTarget": "viya",
   "targets": [
