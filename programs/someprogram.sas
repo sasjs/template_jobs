@@ -1,6 +1,8 @@
 /**
   @file
+  @sastype_include
   @brief An example program
+
   @details Just a random program to show how arbitrary
   code can be included in SASjs Jobs and Services
 

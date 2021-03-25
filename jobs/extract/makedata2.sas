@@ -1,5 +1,6 @@
 /**
   @file
+  @sastype_job
   @brief makedata1 job
   @details  This is where the job is described (using markdown).  The sections below contain
   more info.
@@ -17,16 +18,15 @@
   This is where you can provide the library.table references of your input and
   output tables.  This is used to generate the data lineage in `sasjs doc`.
 
-
   <h4> SAS Macros </h4>
   @li example.sas
 
-  <h4> SAS Programs </h4>
+  <h4> SAS Includes </h4>
   @li demotable2.sas DEMO
 
   <h4> Data Inputs </h4>
   @li mylib.policy_extract
-  
+
   <h4> Data Outputs </h4>
   @li mylib.example
 

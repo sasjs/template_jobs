@@ -1,5 +1,6 @@
 /**
   @file
+  @sastype_macro
   @brief An example macro
   @details prints an arbitrary message to the log
 

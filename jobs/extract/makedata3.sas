@@ -1,5 +1,6 @@
 /**
   @file
+  @sastype_job
   @brief makedata1 job
   @details  This is where the job is described (using markdown).  The sections below contain
   more info.

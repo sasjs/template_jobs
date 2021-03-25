@@ -1,5 +1,6 @@
 /**
   @file
+  @sastype_job
   @brief makedata1 job
   @details  This is where the job is described (using markdown).  The sections below contain
   more info.
@@ -27,7 +28,7 @@
 
   <h4> Data Inputs </h4>
   @li src.policy_table
-  
+
   <h4> Data Outputs </h4>
   @li mylib.policy_extract
 

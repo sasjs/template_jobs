@@ -1,5 +1,9 @@
 ALPHABETICAL_INDEX     = NO
-
+ALIASES += "sastype_include=\xrefitem inc \"\" \"Includes\""
+ALIASES += "sastype_job=\xrefitem job \"\" \"Jobs\""
+ALIASES += "sastype_macro=\xrefitem mac \"\" \"Macros\""
+ALIASES += "sastype_service=\xrefitem ser \"\" \"Services\""
+ALIASES += "sastype_wrapper=\xrefitem auto \"\" \"Wrappers\""
 ENABLE_PREPROCESSING   = NO
 EXTENSION_MAPPING      = sas=Java ddl=Java
 EXTRACT_LOCAL_CLASSES  = NO
