@@ -29,8 +29,8 @@
   "devDependencies": {
     "ghooks": "^2.0.4"
   },
-  "config":{
-    "ghooks":{
+  "config": {
+    "ghooks": {
       "pre-commit": "sasjs lint"
     }
   }
