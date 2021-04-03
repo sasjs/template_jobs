@@ -5,5 +5,4 @@ image:
   file: .gitpod.dockerfile
 vscode:
   extensions:
-    - redlin.remove-tabs-on-save@1.2.1:oo8vGLFgpWicEzdLvlC/8g==
-    - sasjs.sasjs-for-vscode@1.7.0:HMgvBlvZbTRec+5P9LmDEA==
+    - sasjs.sasjs-for-vscode@1.7.2:R6y1nzpFh2P99BZg5FgH5g==
