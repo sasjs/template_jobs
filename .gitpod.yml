@@ -6,3 +6,4 @@ image:
 vscode:
   extensions:
     - sasjs.sasjs-for-vscode@1.7.2:R6y1nzpFh2P99BZg5FgH5g==
+    - ritwickdey.liveserver

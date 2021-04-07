@@ -1,7 +1,6 @@
 {
   "recommendations": [
     "sasjs.sasjs-for-vscode",
-    "redlin.remove-tabs-on-save",
-    "auchenberg.vscode-browser-preview"
+    "redlin.remove-tabs-on-save"
   ]
 }
