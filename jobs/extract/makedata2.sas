@@ -10,11 +10,11 @@
   can also reference any of the @sasjs/core macros and they will be
   automatically included.
 
-  ## SAS Programs
+  ## SAS Includes
   Unlike macros (which are first compiled) SAS programs are executed
   immediately.
-  To provide control, therefore, SAS programs are loaded into filerefs, where
-  they can be called on demand.
+  To provide control, therefore, SAS programs are loaded into filerefs as
+  "includes", where they can be called on demand.
 
   ## Data Inputs / Outputs
   This is where you can provide the library.table references of your input and
