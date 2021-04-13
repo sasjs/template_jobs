@@ -12,6 +12,18 @@
     "termProgram": "jobs/jobterm.sas",
     "macroVars": {}
   },
+  "testConfig": {
+    "testFolders": [
+      "tests"
+    ],
+    "initProgram": "tests/testinit.sas",
+    "termProgram": "tests/testterm.sas",
+    "macroVars": {
+      "testsuite": "SASjs Jobs Template"
+    },
+    "testSetUp": "tests/testsetup.sas",
+    "testTearDown": "tests/testteardown.sas"
+  },
   "programFolders": [
     "db/demolib",
     "includes"
