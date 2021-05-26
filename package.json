@@ -24,7 +24,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@sasjs/core": "^2.12.3"
+    "@sasjs/core": "^2.32.4"
   },
   "devDependencies": {
     "ghooks": "^2.0.4"
