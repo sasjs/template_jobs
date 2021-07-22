@@ -1,6 +1,5 @@
 /**
   @file
-  @sastype_test
   @brief testing various things
 
   <h4> SAS Macros </h4>
@@ -13,5 +12,5 @@
 %assert(msg=My Test Description,result=PASS)
 
 %webout(OPEN)
-%webout(OBJ,results)
+%webout(OBJ,test_results)
 %webout(CLOSE)

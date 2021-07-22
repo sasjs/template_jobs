@@ -9,7 +9,11 @@
 
 %example()
 
-%put testing, setup everything;
+data test_results;
+  test_description='testing, setup everything';
+  test_result='PASS';
+run;
 
 %webout(OPEN)
+%webout(OBJ,test_results)
 %webout(CLOSE)

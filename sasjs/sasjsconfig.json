@@ -33,10 +33,15 @@
     {
       "name": "viya",
       "serverType": "SASVIYA",
+      "allowInsecureRequests": false,
       "appLoc": "/Public/sasjs/jobs",
+      "macroFolders": [],
+      "programFolders": [],
       "deployConfig": {
-        "deployServicePack": true
-      }
+        "deployServicePack": true,
+        "deployScripts": []
+      },
+      "contextName": "SAS Job Execution compute context"
     }
   ]
 }
