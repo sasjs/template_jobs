@@ -24,7 +24,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@sasjs/cli": "^3.0.0",
     "@sasjs/core": "^2.45.2"
   },
   "devDependencies": {
