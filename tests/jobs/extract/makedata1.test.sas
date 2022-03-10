@@ -3,14 +3,13 @@
   @brief testing various things
 
   <h4> SAS Macros </h4>
-  @li assert.sas
+  @li mp_assert.sas
 
 **/
 
 %put this is a test;
 
-%assert(msg=My Test Description,result=PASS)
-
-%webout(OPEN)
-%webout(OBJ,test_results)
-%webout(CLOSE)
+%mp_assert(
+  iftrue=(1=1),
+  desc=My Test Description. This will always pass!
+)

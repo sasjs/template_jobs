@@ -2,11 +2,8 @@
   @file
   @brief ending the test
 
-  <h4> SAS Macros </h4>
-  @li example.sas
+*/
 
-**/
-
-%example()
-
-%put testing, termed;
+%webout(OPEN)
+%webout(OBJ, TEST_RESULTS)
+%webout(CLOSE)

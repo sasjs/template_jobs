@@ -4,14 +4,13 @@
   @brief testing runjob1
 
   <h4> SAS Macros </h4>
-  @li assert.sas
+  @li mp_assert.sas
 
 **/
 
 %put this is a test;
 
-%assert(msg=My Test for runjob1,result=FAIL)
-
-%webout(OPEN)
-%webout(OBJ,results)
-%webout(CLOSE)
+%mp_assert(
+  iftrue=(1=0),
+  desc=My Test Description. This will always fail!
+)

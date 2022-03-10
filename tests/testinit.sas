@@ -7,5 +7,6 @@
 
 **/
 
+%example()
 
 %put testing, init;

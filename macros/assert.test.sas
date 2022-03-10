@@ -11,4 +11,5 @@
 
 %assert(outds=work.assertive,msg=assertion)
 
-%mp_assertdsobs(work.assertive)
+/* ensure output has at least 1 observation */
+%mp_assertdsobs(work.assertive,test=ATLEAST 1)
