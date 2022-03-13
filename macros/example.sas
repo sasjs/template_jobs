@@ -1,6 +1,5 @@
 /**
   @file
-  @sastype_macro
   @brief An example macro
   @details prints an arbitrary message to the log
 
@@ -11,6 +10,9 @@
 
 %macro example(msg);
 
-  %put &msg;
+  data work.example;
+    msg=symget('msg');
+    putlog msg=;
+  run;
 
-%mend;
+%mend example;
