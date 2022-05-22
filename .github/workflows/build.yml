@@ -24,5 +24,7 @@ jobs:
         run: npm ci
       - name: Install the SASjs CLI
         run: npm i -g @sasjs/cli
+      - name: Run the lint (code quality) check
+        run: sasjs lint
       - name: Check that the project actually builds
         run: sasjs cb
