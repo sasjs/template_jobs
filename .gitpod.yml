@@ -8,3 +8,4 @@ image:
 vscode:
   extensions:
     - sasjs.sasjs-for-vscode
+    - ritwickdey.LiveServer

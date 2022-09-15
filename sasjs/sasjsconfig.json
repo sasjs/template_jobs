@@ -28,20 +28,19 @@
     "db/demolib",
     "includes"
   ],
-  "defaultTarget": "viya",
+  "defaultTarget": "server",
   "targets": [
     {
       "name": "viya",
       "serverType": "SASVIYA",
-      "allowInsecureRequests": false,
       "appLoc": "/Public/sasjs/jobs",
-      "macroFolders": [],
-      "programFolders": [],
-      "deployConfig": {
-        "deployServicePack": true,
-        "deployScripts": []
-      },
       "contextName": "SAS Job Execution compute context"
+    },
+    {
+      "name": "server",
+      "serverUrl": "",
+      "serverType": "SASJS",
+      "appLoc": "/Public/demo/server"
     }
   ]
 }
