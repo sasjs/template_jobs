@@ -15,4 +15,4 @@
     putlog msg=;
   run;
 
-%mend example;
+%mend ;
