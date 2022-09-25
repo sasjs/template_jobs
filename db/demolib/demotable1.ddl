@@ -10,5 +10,10 @@ create table &mylib..demotable1(
         ,tx_to num not null format=datetime19.3
         ,vara varchar(10) not null
         ,varb varchar(32) not null
-    ,constraint pk_demotable1
-        primary key(tx_from, vara));
+);
+
+proc datasets lib=&mylib noprint;
+  modify demotable1;
+  index create
+    pk_demotable1=(tx_from vara)/nomiss unique;
+quit;
