@@ -6,10 +6,10 @@
 
 proc sql;
 create table &mylib..demotable1(
-        tx_from num not null format=datetime19.3
-        ,tx_to num not null format=datetime19.3
-        ,vara varchar(10) not null
-        ,varb varchar(32) not null
+    tx_from num format=datetime19.3
+    ,tx_to num format=datetime19.3
+    ,vara varchar(10)
+    ,varb varchar(32)
 );
 
 proc datasets lib=&mylib noprint;
