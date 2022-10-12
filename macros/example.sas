@@ -10,6 +10,8 @@
 
 %macro example(msg);
 
+  %global testvar;
+
   data work.example;
     msg=symget('msg');
     putlog msg=;
