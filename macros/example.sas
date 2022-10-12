@@ -10,7 +10,7 @@
 
 %macro example(msg);
 
-  %global testvar;
+  %let testvar=%sysfunc(ranuni(0));
 
   data work.example;
     msg=symget('msg');

@@ -9,8 +9,8 @@
 
 **/
 
-%put this is a test;
 
+%let testvar=this is a test;
 %mp_assertscope(SNAPSHOT)
 %example(some message)
 %mp_assertscope(COMPARE,desc=Checking macro variables against previous snapshot)
