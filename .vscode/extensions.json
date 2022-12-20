@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    "sasjs.sasjs-for-vscode",
-    "redlin.remove-tabs-on-save"
+    "sasjs.sasjs-for-vscode"
   ]
 }
