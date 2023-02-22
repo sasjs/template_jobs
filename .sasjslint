@@ -1,13 +1,29 @@
 {
-    "noEncodedPasswords": true,
-    "hasDoxygenHeader": true,
-    "hasMacroNameInMend": true,
-    "hasMacroParentheses": true,
-    "indentationMultiple": 2,
-    "lowerCaseFileNames": true,
-    "maxLineLength": 80,
-    "noNestedMacros": true,
-    "noSpacesInFileNames": true,
-    "noTabIndentation": true,
-    "noTrailingSpaces": true
+  "hasDoxygenHeader": true,
+  "defaultHeader": "/**{lineEnding}  @file{lineEnding}  @brief <Your brief here>{lineEnding}  <h4> SAS Macros </h4>{lineEnding}**/",
+  "noEncodedPasswords": true,
+  "hasMacroNameInMend": true,
+  "hasMacroParentheses": true,
+  "ignoreList": [
+    "sajsbuild/",
+    "sasjsresults/"
+  ],
+  "indentationMultiple": 2,
+  "lineEndings": "lf",
+  "lowerCaseFileNames": true,
+  "maxLineLength": 80,
+  "maxDataLineLength": 80,
+  "maxHeaderLineLength": 80,
+  "noGremlins": true,
+  "allowedGremlins": [
+    "0x0080",
+    "0x3000"
+  ],
+  "noNestedMacros": true,
+  "noSpacesInFileNames": true,
+  "noTabs": true,
+  "noTrailingSpaces": true,
+  "severityLevel": {
+    "indentationMultiple": "error"
+  }
 }
