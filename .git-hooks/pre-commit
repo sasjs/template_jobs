@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Ensure lint is passing
+# Ensure sasjs lint is passing
 LINT=`sasjs lint`
 if [[ "$LINT" != "✔ All matched files use @sasjs/lint code style!" ]]; then
   echo "$LINT"
