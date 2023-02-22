@@ -13,7 +13,7 @@
     "docs": "sasjs doc",
     "test": "sasjs test",
     "lint": "sasjs lint",
-    "prepare": "git rev-parse --git-dir && git config core.hooksPath ./.git-hooks || true"
+    "prepare": "chmod 0755 .git-hooks/* && git rev-parse --git-dir && git config core.hooksPath ./.git-hooks || true"
   },
   "keywords": [
     "SAS",
